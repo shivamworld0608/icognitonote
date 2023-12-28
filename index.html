@@ -1,0 +1,27 @@
+<!-- public/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Icognito Note</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">Icognito Note</h1>
+    <h6>Be Anonymously Heard: Your Words, Your Secrets, Your Message Board</h6>
+    <form action="/submit" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Write Your Instagram username" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required placeholder="Write Your Message Anonymously"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+
+</html>
