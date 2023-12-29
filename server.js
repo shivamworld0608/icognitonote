@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Connect to MongoDB
-mongoose.connect('mongodb://0.0.0.0:27017/anonymous_messages', {
+mongoose.connect('mongodb+srv://shivamchspro656:EUuNDv2EGZohFJxW@cluster0.cxb4msl.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
